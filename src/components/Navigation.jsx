@@ -6,8 +6,8 @@ function Navigation() {
     <div className="navigation border-bottom border-dark">
       <nav className="navbar navbar-expand navbar-dark bg-warning text-white font-weight-bold">
         <div className="container">
-          <NavLink className="navbar-brand text-dark" to="/">
-            Tienda Soria
+          <NavLink className="navbar-brand" to="/">
+          <img src="./logo.png" alt="" width="65" height="50"></img>
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">

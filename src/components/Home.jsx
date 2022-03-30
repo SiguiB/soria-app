@@ -1,4 +1,5 @@
 import React from "react";
+import BCarousel from  "./carousel/BCarousel"
 
 function Home() {
   return (
@@ -17,10 +18,14 @@ function Home() {
               alt=""
             />
           </div>
+          <div className="mb-5">
+            <BCarousel />
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
 
 export default Home;
