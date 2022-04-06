@@ -24,3 +24,45 @@ code {
   margin: 2em;
 }
 
+footer {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact{
+  flex:1;
+  text-align: right;
+  display: flex;
+}
+.contact ul{
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.contact ul li{
+  list-style: none;
+  display:inline-block;
+  margin-right: 18px;
+}
+.contact ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size:1.125em ;
+  display: block;
+  padding: 0 10px;
+  transition: 0.2s;
+}
+.contact ul li:hover a{
+  filter: blur(2px);
+}
+.contact ul li a:hover{
+  transform: translateY(-3px) scale(1.05);
+  filter: none;
+}
+.mapa{
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  padding-bottom: 5%;
+}
